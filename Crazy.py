@@ -63,7 +63,7 @@ banner ="""
 \033[1;94m               (__)                  
  \033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n
  \033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya
- \033[32;1mVersion \033[37;1m: \033[33;1m1.0
+ \033[32;1mVersion \033[37;1m: \033[33;1m1.2
 """
 # titik #
 def tik():
@@ -116,6 +116,7 @@ def methodlogin():
 	print banner
 	print "[1] Login With ID/Password."
 	print "[2] Login Using Token."
+        print "[3] Update Tool."
 	print "[0] Exit."
 	print ('      ')
 	hos = raw_input("\nChoose Option >>  ")
@@ -138,7 +139,23 @@ def methodlogin():
 	
 	elif hos =="3":
 		os.system('clear')
-		os.system('python2 login.py')
+		print banner
+		hamza('[✓] Please Wait While Tool Is Updating')
+		hopss('=========>>>>>>-10%...')
+	        hopss('=========>>>>>>-20%...')
+                hopss('=========>>>>>>-30%...')
+                hopss('=========>>>>>>-40%...')
+	        hopss('=========>>>>>>-50%...')
+                hopss('=========>>>>>>-60%...')
+                hopss('=========>>>>>>-70%...')
+	        hopss('=========>>>>>>-80%...')
+                hopss('=========>>>>>>-90%...')
+                hopss('=========>>>>>>-100%...')
+		os.system('git pull origin master')
+		hamza('[✓] Tool Has Been Update Successfully')
+		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
+		time.sleep(3)
+		os.hamza('python2 Crazy.py')
 		
 	elif hos =="0":
 		exit()
