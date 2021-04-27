@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 Crazy.py.py')
+    os.system('python2 Crazy.py')
 
 #Browser Setting
 reload(sys)
@@ -97,7 +97,7 @@ def menu():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 fb.py')
+		os.system('python2 Crazy.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -108,7 +108,7 @@ def menu():
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 fb.py')
+		os.system('python2 Crazy.py')
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
 		time.sleep(1)
@@ -141,7 +141,7 @@ def men():
 	    hopss('Mr-90%...')
 	    hopss('Robot-95%...')
             hopss('Programming-100%...')
-	    os.system('python2 .choice.py')
+	    os.system('python2 Choice.py')
 	    time.sleep(1)
 	elif rana =="3":
 		grab()
