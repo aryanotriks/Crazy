@@ -116,7 +116,7 @@ def methodlogin():
 	print banner
 	print "[1] Login With ID/Password."
 	print "[2] Login Using Token."
-        print "[3] Update Tool."
+        print "[3] Cloning Without Login."
 	print "[0] Exit."
 	print ('      ')
 	hos = raw_input("\nChoose Option >>  ")
@@ -140,7 +140,7 @@ def methodlogin():
 	elif hos =="3":
 		os.system('clear')
 		print banner
-		hamza('[✓] Please Wait While Tool Is Updating')
+		hamza('[✓] Please Wait While Tool Is Loading')
 		hamza('=====>>>>>>-10%...')
 	        hamza('=======>>>>>>-20%...')
                 hamza('=========>>>>>>-30%...')
@@ -151,12 +151,9 @@ def methodlogin():
 	        hamza('===================>>>>>>-80%...')
                 hamza('=====================>>>>>>-90%...')
                 hamza('=======================>>>>>>-100%...')
-                time.sleep(3)
-		os.system('git pull origin master')
-		hamza('[✓] Tool Has Been Update Successfully')
-		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
 		time.sleep(3)
-		os.system('python2 Crazy.py')
+                os.system('clear')
+		os.system('python2 Hammad.py')
 		
 	elif hos =="0":
 		exit()
