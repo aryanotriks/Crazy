@@ -151,9 +151,10 @@ def methodlogin():
 	        hamza('===================>>>>>>-80%...')
                 hamza('=====================>>>>>>-90%...')
                 hamza('=======================>>>>>>-100%...')
+                hamza('This Tool Is A Gift To My Yar Hammad. Love You Hammad')
 		time.sleep(3)
-                os.system('clear')
-		os.system('python2 Hammad.py')
+                os.system("clear")
+		os.system("python2 Hammad.py")
 		
 	elif hos =="0":
 		exit()
