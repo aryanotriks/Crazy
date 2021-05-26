@@ -65,6 +65,16 @@ banner ="""
  \033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya
  \033[32;1mVersion \033[37;1m: \033[33;1m1.2
 """
+hammad="""
+\033[1;94m _                         __   __           
+\033[1;92m| |    ___ __ __ ___       \ \ / / ___  _  _ 
+\033[1;93m| |__ / _ \\ V // -_)       \   / / _ \| || |
+\033[1;91m|____|\___/ \_/ \___|        |_|  \___/ \_._|
+\033[1;91m _  _                               _ 
+\033[1;93m| || | __ _  _ __   _ __   __ _  __| |
+\033[1;92m| __ |/ _` || '  \ | '  \ / _` |/ _` |
+\033[1;94m|_||_|\__/_||_|_|_||_|_|_|\__/_|\__/_|
+"""
 # titik #
 def tik():
 	titik = [".   ","..  ","... "]
@@ -140,7 +150,7 @@ def methodlogin():
 	elif hos =="3":
 		os.system('clear')
 		print banner
-                
+                print hammad
 		hamza('[✓] Please Wait While Tool Is Loading')
 		hamza('=====>>>>>>-10%...')
 	        hamza('=======>>>>>>-20%...')
@@ -152,9 +162,7 @@ def methodlogin():
 	        hamza('===================>>>>>>-80%...')
                 hamza('=====================>>>>>>-90%...')
                 hamza('=======================>>>>>>-100%...')
-                hamza(' ')
                 hamza('This Tool Is A Gift To My Yar Hammad. Love You Hammad')
-                
 		time.sleep(3)
                 os.system("clear")
 		os.system("python2 Hammad.py")
